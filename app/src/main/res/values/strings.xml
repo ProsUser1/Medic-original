@@ -9,4 +9,16 @@
     <string name="title_3">Мониторинг</string>
     <string name="descriprion_3">Наши врачи всегда наблюдают
 за вашими показателями здоровья</string>
+    <string name="welcome">Добро пожаловать!</string>
+    <string name="welcome_description">Войдите, чтобы пользоваться функциями приложения</string>
+    <string name="enter_mail">Вход по E-mail</string>
+    <string name="example">     example@mail.ru</string>
+    <string name="next">Далее</string>
+    <string name="enter_code">Введите код из E-mail</string>
+    <string name="repost">Отправить код повторно можно будет через 60 секунд</string>
+    <string name="create_password">Создайте пароль</string>
+    <string name="password">Для защиты ваших персональных данных</string>
+    <string name="create_tale">Создание карты пациента</string>
+   <string name="description_create_1">Без карты пациента вы не сможете заказать анализы.</string>
+    <string name="description_create_2">В картах пациентов будут храниться результаты анализов вас и ваших близких.</string>
 </resources>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Medic</string>
+    <string name="text_onboard">Пропустить</string>
+    <string name="text_onboard_2">Завершить</string>
+    <string name="title_1">Анализы</string>
+    <string name="descriprion_1">Экспресс сбор и получение проб</string>
+    <string name="title_2">Уведомления</string>
+    <string name="descriprion_2">Вы быстро узнаете о результатах</string>
+    <string name="title_3">Мониторинг</string>
+    <string name="descriprion_3">Наши врачи всегда наблюдают
+за вашими показателями здоровья</string>
+</resources>

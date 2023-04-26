@@ -57,6 +57,7 @@
         android:layout_width="109dp"
         android:layout_height="23dp"
         android:fontFamily="@font/lato"
+        android:onClick="goNext"
         android:text="@string/text_onboard"
         android:textAlignment="textEnd"
         android:textColor="@color/blue_skip"
@@ -177,19 +178,18 @@
         android:layout_width="335dp"
         android:layout_height="56dp"
         android:layout_marginStart="38dp"
-        android:layout_marginTop="46dp"
         android:layout_marginEnd="38dp"
         android:layout_marginBottom="60dp"
         android:backgroundTint="@color/button_before"
         android:onClick="goNext"
         android:text="Создать"
+        android:textColor="@color/white"
         android:textColorHint="@color/button_before"
         android:textSize="17dp"
         app:cornerRadius="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-         />
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

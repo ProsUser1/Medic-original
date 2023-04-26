@@ -19,6 +19,14 @@
     <string name="create_password">Создайте пароль</string>
     <string name="password">Для защиты ваших персональных данных</string>
     <string name="create_tale">Создание карты пациента</string>
-   <string name="description_create_1">Без карты пациента вы не сможете заказать анализы.</string>
+    <string name="description_create_1">Без карты пациента вы не сможете заказать анализы.</string>
     <string name="description_create_2">В картах пациентов будут храниться результаты анализов вас и ваших близких.</string>
+    <string name="title_activity_main6">MainActivity6</string>
+    <string name="find">     Искать анализы</string>
+    <string name="news">Акции и новости</string>
+    <string name="catalog">Каталог анализов</string>
+    <string name="catalog_btn_1">Популярные</string>
+    <string name="catalog_btn_2">Covid</string>
+    <string name="catalog_btn_3">Комплексные</string>
+
 </resources>

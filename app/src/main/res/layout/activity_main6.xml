@@ -182,29 +182,31 @@ android:layout_height="match_parent" >
             app:layout_constraintTop_toBottomOf="@+id/horizontalScrollView2">
 
             <ImageView
-                android:id="@+id/imageView12"
+                android:id="@+id/i1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:onClick="add_price"
                 app:srcCompat="@drawable/card1" />
 
             <ImageView
-                android:id="@+id/imageView13"
+                android:id="@+id/i2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:onClick="goToEmptyActivity"
+                android:onClick="add_price"
                 app:srcCompat="@drawable/card2" />
 
             <ImageView
-                android:id="@+id/imageView14"
+                android:id="@+id/i3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:onClick="add_price"
                 app:srcCompat="@drawable/card3" />
 
             <ImageView
-                android:id="@+id/imageView19"
+                android:id="@+id/i4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:onClick="goToEmptyActivity"
+                android:onClick="add_price"
                 app:srcCompat="@drawable/card4" />
 
         </LinearLayout>
@@ -215,7 +217,31 @@ android:layout_height="match_parent" >
 </ScrollView>
 
 
+    <LinearLayout
+        android:layout_marginBottom="70dp"
+        android:id="@+id/bottom_panel2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
 
+        <Button
+            android:visibility="invisible"
+            android:id="@+id/order"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="В корзину"
+            android:onClick="goToBasket"
+            android:fontFamily="@font/lato_bold"
+            android:textAlignment="center"
+            android:backgroundTint="@color/blue_skip"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            app:cornerRadius="10dp"/>
+    </LinearLayout>
 <!--    нижнее меню-->
     <LinearLayout
         android:id="@+id/bottom_panel"

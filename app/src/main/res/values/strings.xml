@@ -28,5 +28,11 @@
     <string name="catalog_btn_1">Популярные</string>
     <string name="catalog_btn_2">Covid</string>
     <string name="catalog_btn_3">Комплексные</string>
-
+    <string name="map_sick">Карта пациента</string>
+    <string name="title_sick">Без карты пациента вы не сможете заказать анализы.</string>
+    <string name="description_sick">В картах пациентов будут храниться результаты анализов вас и ваших близких.</string>
+    <string name="save">Сохранить</string>
+    <string name="basket">Корзина</string>
+    <string name="summ">Сумма</string>
+    <string name="order">Перейти к оформлению заказа</string>
 </resources>

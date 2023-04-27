@@ -35,4 +35,5 @@
     <string name="basket">Корзина</string>
     <string name="summ">Сумма</string>
     <string name="order">Перейти к оформлению заказа</string>
+    <string name="create_order">Оформление заказа</string>
 </resources>
